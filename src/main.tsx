@@ -48,7 +48,7 @@ const SentryErrorBoundary = Sentry.withErrorBoundary(
     </StrictMode>
   ),
   {
-    fallback: ({ error, resetError }) => (
+    fallback: ({ resetError }) => (
       <div className="flex min-h-screen items-center justify-center">
         <div className="text-center">
           <h1 className="mb-4 text-2xl font-bold">문제가 발생했습니다</h1>
