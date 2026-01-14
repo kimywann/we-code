@@ -1,7 +1,7 @@
 import * as Sentry from "@sentry/react";
 
 export function initializeSentry() {
-  const SENTRY_DSN = import.meta.env.SENTRY_DSN;
+  const SENTRY_DSN = import.meta.env.VITE_SENTRY_DSN;
 
   if (SENTRY_DSN) {
     Sentry.init({
