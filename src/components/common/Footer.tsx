@@ -19,17 +19,22 @@ function Footer() {
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <p className="cursor-pointer transition-all duration-300 hover:font-medium">
-              Contact
-            </p>
             <Separator orientation="vertical" className="!h-[14px]" />
-            <p className="cursor-pointer transition-all duration-300 hover:font-medium">
+            <a
+              href="https://github.com/kimywann/we-code"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer transition-all duration-300 hover:font-medium"
+            >
               Github
-            </p>
+            </a>
             <Separator orientation="vertical" className="!h-[14px]" />
-            <p className="cursor-pointer transition-all duration-300 hover:font-medium">
+            <a
+              href="mailto:kimywan10@gmail.com?subject=서비스 피드백"
+              className="cursor-pointer transition-all duration-300 hover:font-medium"
+            >
               서비스 피드백
-            </p>
+            </a>
           </div>
         </div>
       </div>
